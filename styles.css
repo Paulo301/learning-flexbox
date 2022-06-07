@@ -6,9 +6,6 @@ html, body, #app {
 #app {
   display: flex;
   flex-direction: row;
-
-  align-items: center;
-  justify-content: space-between;
 }
 
 .box {
@@ -16,4 +13,6 @@ html, body, #app {
   height: 60px;
   background: #f00;
   margin: 5px;
+  flex-grow: 1;
+  flex-shrink: 1;
 }
